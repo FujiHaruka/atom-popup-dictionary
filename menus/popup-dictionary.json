@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle popup-dictionary",
+        "command": "popup-dictionary:open"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "popup-dictionary",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "popup-dictionary:open"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
